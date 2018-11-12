@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- 表单标签
+		 action: 提交地址
+		 method: get 默认方式，会将参数拼接在链接后面有小打限制4kb
+				post 会将参数封装在请求体中,没有这样的限制
+		input:
+		   type
+		   name: 
+		   id: 给输入项去一个名字，以便以后期找到操作他
+		   
+		-->
+		<form action="../04-网站首页/网站首页.html">
+			<!-- 掩藏域-->
+			<input type="hidden" value="sdfdsfdsfdsdssdf" />
+			<!-- 文本输入框 -->
+			用户名：<input type="text" name="username" />     <br />
+			密码: <input type="password" />   <br />
+			确认密码: <input type="password" />   <br />
+			邮箱： <input type="text" />     <br />
+			手机号码： <input type="text" /> <br />
+			靓照: <input type="file" /> <br />
+			性别：<input type="radio" name="sex" />男 <input type="radio"name="sex" />女<input type="radio"name="sex" />妖
+			<br />
+			爱好：
+			<input type="checkbox" /> 抽烟
+			<input type="checkbox" /> 喝酒
+			<input type="checkbox" /> 读书
+			<input type="checkbox" /> 大保健 <br />
+			
+			择偶要求:
+				<textarea cols="50" rows="4"></textarea> <br />
+			籍贯:
+				<select>
+					<option>请选择</option>
+					<option西安</option>
+					<option>武汉</option>
+					<option>潜江</option>
+				</select> <br />
+			
+			验证码: <input type="text" /> <br />
+			<input type="submit" value="注册"/>
+			<input type="submit" value="普通按钮"/>
+			<input type="submit" value="重置按钮"/>
+		</form>
+		
+		
+		
+		
+		
+	</body> 
+</html>
